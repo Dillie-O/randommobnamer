@@ -1,5 +1,7 @@
 main: net.dillieodigital.randommobnamer.RandomMobNamerPlugin
 name: RandomMobNamer
-version: 0.1
+version: 0.3
+api-version: 1.13
+author: jascotty2
 author: Sean Patterson
 description: Randomizes mob name upon spawn.

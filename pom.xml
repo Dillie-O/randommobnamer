@@ -6,15 +6,15 @@
 
   <groupId>net.dillieodigital.randommobnamer</groupId>
   <artifactId>RandomMobNamer</artifactId>
-  <version>0.1</version>
+  <version>0.2</version>
 
   <name>RandomMobNamer</name>
   <url>https://bitbucket.org/jascotty2/randommobnamer</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <repositories>
@@ -46,6 +46,7 @@
         <directory>${project.basedir}/src/main/resources</directory>
         <includes>
           <include>plugin.yml</include>
+          <include>config.yml</include>
         </includes>
       </resource>
     </resources>

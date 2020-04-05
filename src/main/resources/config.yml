@@ -1,0 +1,23 @@
+HealthCheck: WootWoot
+MobNames:
+    BAT:
+        Chance: 50
+        Names:
+            - Guano
+            - Man
+            - Kid
+            - Woman
+    BEE:
+        Chance: 50
+        Names:
+            - Honey
+            - Buzz
+            - Stripey
+            - Wally B
+    CAT:
+        Chance: 50
+        Names:
+            - Garfield
+            - Felix
+            - Captain Fluffypants
+            - Heathcliff
