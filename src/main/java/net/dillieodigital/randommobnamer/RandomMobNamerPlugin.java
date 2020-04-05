@@ -25,10 +25,8 @@ public class RandomMobNamerPlugin extends JavaPlugin
         // use bukkit's config loader
         config = getConfig();
 
-        String healthCheck = config.getString("HealthCheck");
-        getLogger().info("Health Check: " + healthCheck);
-
     }
+
     @Override
     public void onDisable() {
         getLogger().info("Peace out, Random Mob Namer!");
