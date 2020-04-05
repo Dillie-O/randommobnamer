@@ -16,6 +16,7 @@ import org.bukkit.event.entity.CreatureSpawnEvent;
 public class CreatureSpawnListener implements Listener
 {
     final RandomMobNamerPlugin plugin;
+    final static Random rand = new Random();
 
     public CreatureSpawnListener(RandomMobNamerPlugin plugin) {
         this.plugin = plugin;
@@ -35,16 +36,13 @@ public class CreatureSpawnListener implements Listener
 
         int odds = plugin.getConfiguration().getInt(creatureChancePath);
 
-        Random rand = new Random(System.currentTimeMillis());
-        int check =  rand.nextInt(100) + 1;
-
         // Our odds value represents a percentage (1 to 100) that the mob
         // gets a custom name. The random generator generates a number from
-        // 1 to 100. If the generator gives us a number less than or equal
+        // 0 to 99. If the generator gives us a number less than or equal
         // to our odds range, then we "hit" and will git the mob a custom
         // name. We also verify that odds are greater than 0 to begin with
         // for those mobs that don't have a config or are forcibly set to 0.
-        if ((odds > 0) && (odds >= check))
+        if ((odds > 0) && (odds > rand.nextInt(100)))
         {
             List<String> nameList = plugin.getConfiguration().getStringList(creatureNamePath);
 
