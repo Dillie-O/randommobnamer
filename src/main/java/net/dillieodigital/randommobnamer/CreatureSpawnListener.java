@@ -15,20 +15,22 @@ import org.bukkit.event.entity.CreatureSpawnEvent;
  */
 public class CreatureSpawnListener implements Listener
 {
+    final Random rand;
     final RandomMobNamerPlugin plugin;
-    final static Random rand = new Random();
 
     public CreatureSpawnListener(RandomMobNamerPlugin plugin) {
         this.plugin = plugin;
+        this.rand = new Random();
 	}
 
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
      public void onCreatureSpawnEvent(CreatureSpawnEvent event)
      {
         final LivingEntity creature = event.getEntity();
-		// Don't rename named mobs
+
+        // Don't rename named mobs
 		if(creature.getCustomName() != null) return;
-		
+
 		// Calculate the chance to name this mob
         String creatureType = creature.getType().toString();
         String creatureChancePath = "MobNames." + creatureType + ".Chance";

@@ -24,7 +24,6 @@ public class RandomMobNamerPlugin extends JavaPlugin
 
         // use bukkit's config loader
         config = getConfig();
-
     }
 
     @Override

@@ -1,23 +1,902 @@
-HealthCheck: WootWoot
 MobNames:
     BAT:
-        Chance: 50
+        Chance: 5
         Names:
-            - Guano
+            - Koda
+            - Bartok
+            - Fidget
+            - Zubat
+            - Golbat
+            - Crobat
             - Man
             - Kid
             - Woman
+            - Jeff
     BEE:
-        Chance: 50
+        Chance: 5
         Names:
             - Honey
             - Buzz
             - Stripey
             - Wally B
+            - Burt
+            - Jeff
+    BLAZE:
+        Chance: 5
+        Names:
+            - Flamey
+            - Blaziken
+            - Combusken
+            - Torch
+            - Glory
+            - Jeff
+    BOAT:
+        Chance: 5
+        Names:
+            - SS Minnow
+            - Unsinkable II
+            - Jolly Roger
+            - HMS Victory
+            - SS Titanic
+            - Bob
+            - SS Tidal
+            - Black Perl
     CAT:
-        Chance: 50
+        Chance: 5
         Names:
             - Garfield
             - Felix
             - Captain Fluffypants
             - Heathcliff
+            - Hello Kitty
+            - Sylvester
+            - Tom
+            - Cat in the Hat
+            - Puss in Boots
+            - Salem
+            - Olvier
+            - Grumpy
+            - Cheshire
+            - Azrael
+            - Crookshanks
+            - Nyan
+            - Meowth
+            - Snagglepuss
+            - Pusheen
+            - Socrates
+            - Morris
+            - Code
+            - Jeff
+            - Fluffy
+            - Fluffy Jr
+            - Fluffy Sr
+    CAVE_SPIDER:
+        Chance: 5
+        Names:
+            - Aragog
+            - Jeff
+            - Charlotte
+            - The Gnat
+            - Miss Spider
+            - Arachne
+            - Shelob
+    CHICKEN:
+        Chance: 5
+        Names:
+            - Foghorn
+            - Chicken Little
+            - Ginger
+            - Camilla
+            - Sheldon
+            - Torchic
+            - Roy Rooster
+            - Jeff
+    COD:
+        Chance: 5
+        Names:
+            - Charlie
+            - Jeff
+            - Nemo
+            - Dory
+            - Oscar
+            - Floater
+            - Wave
+            - Sushi
+            - Bait
+            - Oooh HaHa
+            - Bubba Gunp
+            - Long John Silver
+            - Magikarp
+            - Puckerface Jones
+            - Cleo
+            - Ponyo
+            - Pongo
+            - Jaws
+            - Snapper
+            - Mr Lipet
+    COW:
+        Chance: 5
+        Names:
+            - Milkshake
+            - Bessy
+            - Bertha
+            - Mama Moo
+            - Cockadoodle Moo
+            - Winnie the Moo
+            - Babe
+            - How Now
+            - Dixie
+            - Molly
+            - Moo Moo Meadows
+            - Oreo
+            - Waffles
+            - Jeff
+    CREEPER:
+        Chance: 5
+        Names:
+            - DJ Creepz
+            - Creeperella
+            - I Go Boom
+            - Pop goes the Creeper
+            - Aww Nuts
+            - Ralph
+            - Fred
+            - Jim
+            - Jeff
+            - Ida Bomb
+    DOLPHIN:
+        Chance: 5
+        Names:
+            - Flipper
+            - Flipper Phone
+            - Mr Porpoise
+            - Flubber
+            - Winter
+            - Hope
+            - Jeff
+            - Jumper
+            - Trickster
+            - Snorky
+            - Snowflake
+            - Beta
+            - Buddy
+            - Moby
+    DONKEY:
+        Chance: 5
+        Names:
+            - Brighty
+            - Shrek
+            - Wonkee
+            - Jeff
+            - Nestor
+            - Dominick
+            - Benjamin
+            - Hunky
+            - Spunky
+            - Burro-ito
+            - Eeyore
+    DROWNED:
+        Chance: 5
+        Names:
+            - Glub Glub
+            - Jeff
+            - Noob
+            - Poseidon
+            - Sparrow
+            - Davey Jones
+            - I Drowned
+            - Captain Nemo
+            - Aquaman
+            - Drow
+            - Drizzt
+    ELDER_GUARDIAN:
+        Chance: 5
+        Names:
+            - Xanthar
+            - Jeff
+            - Mr Sparkles
+            - Paul
+            - Ringo
+            - George
+            - John
+    ENDER_DRAGON:
+        Chance: 5
+        Names:
+            - Smaug
+            - Puff
+            - Pete
+            - Shruikan
+            - Sapphira
+            - Thorn
+            - Glada
+            - Charmander
+            - Charizard
+            - Drogon
+            - Shenron
+            - Toothless
+            - Spyro
+            - Errol
+            - Drago
+            - Falkor
+            - Puffnstuf
+    ENDERMAN:
+        Chance: 5
+        Names:
+            - Highlander
+            - Jeff
+            - Larry
+            - Moe
+            - Curly
+            - Shep
+            - Starterman
+            - Glowie Eyes
+            - Tall Dark and Spooky
+            - Shadow
+    ENDERMITE:
+        Chance: 5
+        Names:
+            - Buggy
+            - Jeff
+            - Endie
+            - Mitey
+            - Matey
+            - Bugger
+            - BugBoy
+            - Moe
+            - Manny
+            - Phillip
+    EVOKER:
+        Chance: 5
+        Names:
+            - Gandalf
+            - Jeff
+            - Saruman
+            - Voldemort
+            - Larry
+            - Bob
+            - Fred
+            - E Train
+            - Rincewind
+    FOX:
+        Chance: 5
+        Names:
+            - Fantastic Mr Fox
+            - Jeff
+            - Eevee
+            - Flareon
+            - Vaporeon
+            - Robin Hood
+            - Nick Wilde
+            - Tails
+            - Vulpix
+            - Ninetails
+            - Fox McCloud
+    GHAST:
+        Chance: 5
+        Names:
+            - Casper
+            - Jeff
+            - Binky
+            - Pinky
+            - Inky
+            - Clyde
+            - Slimer
+            - Gengar
+    GIANT:
+        Chance: 5
+        Names:
+            - BFG
+            - Jeff
+            - Bigfoot
+            - Sasquatch
+            - Hagrid
+            - Andre
+            - Jolly Green Giant
+            - Goliath
+    GUARDIAN:
+        Chance: 5
+        Names:
+            - Drax
+            - Jeff
+            - Ronan
+            - Yondu
+            - Hobart
+            - George
+            - Wilhelm
+    HORSE:
+        Chance: 5
+        Names:
+            - Mr Ed
+            - Jeff
+            - Pokey
+            - Spirit
+            - Maximus
+            - Seabiscuit
+            - Black Beauty
+            - Shadowfax
+            - Silver
+    HUSK:
+        Chance: 5
+        Names:
+            - CornCob
+            - Jeff
+            - Sam
+            - Dean
+            - Two Face
+            - Mel
+            - Jimmy
+            - Frank
+            - Vern
+    ILLUSIONER:
+        Chance: 5
+        Names:
+            - Spooky
+            - Jeff
+            - David Blaine
+            - David Copperfield
+            - Houdini
+            - Penn
+            - Teller
+    IRON_GOLEM:
+        Chance: 5
+        Names:
+            - Optimus Prime
+            - Jeff
+            - Iron Giant
+            - Gundam
+            - Johnny 5
+            - KITT
+            - Lion Force Voltron
+    LLAMA:
+        Chance: 5
+        Names:
+            - Kuzco
+            - Jeff
+            - Spitz
+            - Como Se
+            - Dolly
+            - Fred
+            - Albert
+            - Lloyd
+    MULE:
+        Chance: 5
+        Names:
+            - Brighty
+            - Jeff
+            - Wonkee
+            - Shrek
+            - Nestor
+            - Dominick
+            - Benjamin
+            - Hunky
+            - Spunky
+            - Burro-ito
+            - Eeyore
+            - Waffles
+            - DONKEY
+    MUSHROOM_COW:
+        Chance: 5
+        Names:
+            - Moosh
+            - Jeff
+            - Stu
+            - Della
+            - Betsy
+            - Cowabunga
+            - Toadstool
+            - Fungi Moo
+    OCELOT:
+        Chance: 5
+        Names:
+            - Tigger
+            - Jeff
+            - Tony
+            - Rajah
+            - Shere Kahn
+            - Hobbes
+            - Tigress
+            - Incineroar
+            - Daniel
+    PANDA:
+        Chance: 5
+        Names:
+            - Paanda
+            - Andy
+            - Bingo
+            - Congo
+            - Xiao Mei
+            - Po
+            - Spinda
+            - Shanda
+    PARROT:
+        Chance: 5
+        Names:
+            - Phillip
+            - Jeff
+            - Toucan Sam
+            - Zazu
+            - Tweety
+            - Kevin
+            - Woodstock
+            - Big Bird
+            - Woody
+            - Iago
+            - Mr Ping
+            - Jose Carioca
+            - Panchito Pistoles
+    PHANTOM:
+        Chance: 5
+        Names:
+            - Casper
+            - Jeff
+            - Binky
+            - Pinky
+            - Inky
+            - Clyde
+            - Slimer
+            - Gengar
+            - Moaning Myrtle
+    PIG:
+        Chance: 5
+        Names:
+            - Porky
+            - Jeff
+            - Porkchop
+            - Bacon
+            - Dinner
+            - Football
+            - Pigskin
+            - Wilbur
+            - Miss Piggy
+            - Piglet
+            - Babe
+            - Waddles
+            - Little Pig
+            - Peppa
+            - Pumbaa
+            - Hamm
+            - Pua
+            - Spider Ham
+    PIG_ZOMBIE:
+        Chance: 5
+        Names:
+            - Porky
+            - Jeff
+            - Porkchop
+            - Bacon
+            - Dinner
+            - Football
+            - Pigskin
+            - Wilbur
+            - Miss Piggy
+            - Piglet
+            - Babe
+            - Waddles
+            - Little Pig
+            - Peppa
+            - Pumbaa
+            - Hamm
+            - Pua
+            - Spider Ham
+    PILLAGER:
+        Chance: 5
+        Names:
+            - Butch Cassidy
+            - Jeff
+            - Jesse James
+            - Clyde
+            - Bonnie
+            - Baby Face Nelson
+            - Bigtime Beagle
+            - Burger Beagle
+            - Ma Beagle
+            - Bankjob Beagle
+    POLAR_BEAR:
+        Chance: 5
+        Names:
+            - Molar Bear
+            - Jeff
+            - Coca Cola Bear
+            - Iorek Byrnison
+            - Lars
+            - Smith
+            - Piper
+            - Mitch
+            - ICEE Bear
+    PUFFERFISH:
+        Chance: 5
+        Names:
+            - Charlie
+            - Jeff
+            - Nemo
+            - Dory
+            - Oscar
+            - Floater
+            - Wave
+            - Sushi
+            - Bait
+            - Oooh HaHa
+            - Bubba Gunp
+            - Long John Silver
+            - Magikarp
+            - Puckerface Jones
+            - Cleo
+            - Ponyo
+            - Pongo
+            - Jaws
+            - Snapper
+            - Mr Lipet
+            - Kirby
+            - Puff Daddy
+    RABBIT:
+        Chance: 5
+        Names:
+            - Peter
+            - Jeff
+            - Bugs
+            - Wascal
+            - Judy Hopps
+            - Lola
+            - Thumper
+            - Roger
+            - White Rabbit
+            - Rabbit
+            - Buster
+            - Oswald the Lucky Rabbit
+            - Nesquick Bunny
+            - Snowball
+            - Energizer
+            - Babs
+    RAVAGER:
+        Chance: 5
+        Names:
+            - Butch Cassidy
+            - Jeff
+            - Jesse James
+            - Clyde
+            - Bonnie
+            - Baby Face Nelson
+            - Bigtime Beagle
+            - Burger Beagle
+            - Ma Beagle
+            - Bankjob Beagle
+    SALMON:
+        Chance: 5
+        Names:
+            - Charlie
+            - Jeff
+            - Nemo
+            - Dory
+            - Oscar
+            - Floater
+            - Wave
+            - Sushi
+            - Bait
+            - Oooh HaHa
+            - Bubba Gunp
+            - Long John Silver
+            - Magikarp
+            - Puckerface Jones
+            - Cleo
+            - Ponyo
+            - Pongo
+            - Jaws
+            - Snapper
+            - Mr Lipet
+    SHEEP:
+        Chance: 5
+        Names:
+            - Shaun
+            - Jeff
+            - Derek
+            - Lamb Chop
+            - Wolly
+            - Sweater
+            - Serta
+            - Russell
+            - Lambkin
+            - Baa Baa Black
+    SHULKER:
+        Chance: 5
+        Names:
+            - Boxie
+            - Jeff
+            - Spin Top
+            - Bruce
+            - Albert
+            - Thomas
+            - Mimic Chest
+            - Hulker
+    SILVERFISH:
+        Chance: 5
+        Names:
+            - Charlie
+            - Jeff
+            - Nemo
+            - Dory
+            - Oscar
+            - Floater
+            - Wave
+            - Sushi
+            - Bait
+            - Oooh HaHa
+            - Bubba Gunp
+            - Long John Silver
+            - Magikarp
+            - Puckerface Jones
+            - Cleo
+            - Ponyo
+            - Pongo
+            - Jaws
+            - Snapper
+            - Mr Lipet
+    SKELETON:
+        Chance: 5
+        Names:
+            - Skelly
+            - Jeff
+            - DJ Bones
+            - Mr Bonejangles
+            - Skinny
+            - Rattle
+            - Napolean Bone-apart
+            - Bones McCoy
+            - Jack Skellington
+            - Skeletor
+            - Ghost Rider
+            - Grim
+            - Dry Bones
+            - Skulduggery
+    SKELETON_HORSE:
+        Chance: 5
+        Names:
+            - Mr Ed
+            - Jeff
+            - Pokey
+            - Spirit
+            - Maximus
+            - Seabiscuit
+            - Black Beauty
+            - Shadowfax
+            - Silver
+    SLIME:
+        Chance: 5
+        Names:
+            - Slimer
+            - Jeff
+            - Jello
+            - Squishy Bits
+            - Once Upon a Slime
+            - Justin Slime
+            - Adventure Slime
+    SNOWMAN:
+        Chance: 5
+        Names:
+            - Frosty
+            - Jeff
+            - Olaf
+            - Jack Frost
+            - Abominable
+            - Yeti
+            - Wendigo
+            - Wampa
+            - Hugo
+    SPIDER:
+        Chance: 5
+        Names:
+            - Aragog
+            - Jeff
+            - Charlotte
+            - The Gnat
+            - Miss Spider
+            - Arachne
+            - Shelob
+    SQUID:
+        Chance: 5
+        Names:
+            - Inky
+            - Jeff
+            - The Kraken
+            - Squiddily Diddily
+            - Cthulhu
+            - Watcher in the Water
+            - Goliath
+    STRAY:
+        Chance: 5
+        Names:
+            - Rags
+            - Jeff
+            - Sam
+            - Dean
+            - Two Face
+            - Mel
+            - Jimmy
+            - Frank
+            - Vern
+    TROPICAL_FISH:
+        Chance: 5
+        Names:
+            - Charlie
+            - Jeff
+            - Nemo
+            - Dory
+            - Oscar
+            - Floater
+            - Wave
+            - Sushi
+            - Bait
+            - Oooh HaHa
+            - Bubba Gunp
+            - Long John Silver
+            - Magikarp
+            - Puckerface Jones
+            - Cleo
+            - Ponyo
+            - Pongo
+            - Jaws
+            - Snapper
+            - Mr Lipet
+    TURTLE:
+        Chance: 5
+        Names:
+            - Crush
+            - Jeff
+            - Cecil
+            - Squirtle
+            - Wartortle
+            - Blastoise
+            - Squirt
+            - Michaelangelo
+            - Raphael
+            - Donatello
+            - Leonardo
+            - Yertle
+            - Gamera
+    VEX:
+        Chance: 5
+        Names:
+            - Gabriel
+            - Jeff
+            - Angelus
+            - Michael
+            - Asmodeus
+            - Zariel
+            - Castiel
+            - Muriel
+            - Vehuel
+    VILLAGER:
+        Chance: 5
+        Names:
+            - Jim Bob
+            - Jeff
+            - Billy Bob
+            - Joe Bob
+            - Bob Bob
+            - Larry Bob
+            - Sally Mae
+            - Susie Q
+            - Aunt Em
+            - Johnny Kaw
+            - Clem
+            - Cletus
+            - Farmer Giles
+            - Hershel
+            - Billie Sue
+    VINDICATOR:
+        Chance: 5
+        Names:
+            - Conan
+            - Jeff
+            - Attila
+            - Lobo
+            - Aric
+            - Fafhrd
+            - Fred
+            - Genghis Kahn
+            - Thundarr
+    WANDERING_TRADER:
+        Chance: 5
+        Names:
+            - Air Nomad
+            - Jeff
+            - Fester Blatz
+            - Jimmy
+            - Old Jym
+            - Bubba Zanetti
+    WITCH:
+        Chance: 5
+        Names:
+            - Sabrina
+            - Jeff
+            - Edwina
+            - Wanda
+            - Morgana
+            - Rosalind
+            - Romilda
+            - Wendy
+            - Willow
+            - Tara
+            - Zatanna
+    WITHER:
+        Chance: 5
+        Names:
+            - Big Black
+            - Jeff
+            - Fluffy
+            - Witty
+            - Smithers
+    WITHER_SKELETON:
+        Chance: 5
+        Names:
+            - Skelly
+            - Jeff
+            - DJ Bones
+            - Mr Bonejangles
+            - Skinny
+            - Rattle
+            - Napolean Bone-apart
+            - Bones McCoy
+            - Jack Skellington
+            - Skeletor
+            - Ghost Rider
+            - Grim
+            - Dry Bones
+            - Skulduggery
+    WOLF:
+        Chance: 5
+        Names:
+            - Akela
+            - Jeff
+            - Frey
+            - Jacob
+            - Grey Wind
+            - Balto
+            - Beowulf
+            - Loki
+            - Luna
+            - Koki
+            - Stark
+            - White Fang
+    ZOMBIE:
+        Chance: 5
+        Names:
+            - Zoner
+            - Jeff
+            - Ed Shaun
+            - Drooly
+            - Ed
+            - Bub
+            - Merle
+            - Dr Toxic
+            - Party Imp
+            - Breakfast Brainz
+    ZOMBIE_HORSE:
+        Chance: 5
+        Names:
+            - Mr Ed
+            - Jeff
+            - Pokey
+            - Spirit
+            - Maximus
+            - Seabiscuit
+            - Black Beauty
+            - Shadowfax
+            - Silver
+    ZOMBIE_VILLAGER:
+        Chance: 5
+        Names:
+            - Jim Bob
+            - Jeff
+            - Billy Bob
+            - Joe Bob
+            - Bob Bob
+            - Larry Bob
+            - Sally Mae
+            - Susie Q
+            - Aunt Em
+            - Johnny Kaw
+            - Clem
+            - Cletus
+            - Farmer Giles
+            - Hershel
+            - Billie Sue
