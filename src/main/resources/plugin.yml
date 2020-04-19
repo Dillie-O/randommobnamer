@@ -3,4 +3,4 @@ name: RandomMobNamer
 version: 1.0
 api-version: 1.13
 author: Di11i30
-description: Adds randomization of custom mob name upon spawn.
+description: Adds random chance of assigning custom mob name upon spawn.
